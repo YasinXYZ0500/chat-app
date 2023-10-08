@@ -1,0 +1,36 @@
+.container {
+    width: 100%;
+    position: relative;
+}
+
+
+.container img {
+    width: 100%;
+}
+
+/*
+برای اینکه متن رو بیاریم روی عکس از پوزیشن ها استفاده میکنیم
+به تگ والد پوزیشن ریلیتیو میدیم و به تگ فرزند (متن) پوزیشن ابسلوت
+*/
+.textContainer {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+
+.textContainer h1 {
+    font-size: 7rem;
+    color: #ffffff;
+    text-shadow: 30px  #000000;
+}
+
+.textContainer p {
+    font-size: 4rem;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.textContainer span {
+    color: #30c0e4;
+    font-weight: bold;
+}

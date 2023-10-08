@@ -1,0 +1,55 @@
+.container {
+    margin: 10px;
+    width: 300px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgb(159, 159, 159);
+}
+
+.container img {
+    width: 300px;
+}
+
+
+.container h3 {
+    color: #696969;
+    margin: 30px 20px 20px;
+}
+
+.container p {
+    margin: 0 25px 20px;
+    background-color: rgb(10, 145, 46);
+
+    /* فیت کانتنت باعث میشه میشه الکی کِش نیاد و اندازه همون متنی باشه که داخلشه */ 
+    width: fit-content;
+    
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    border-top: 1px silver solid;
+}
+
+.counter img {
+    width: 20px;
+    height: fit-content;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.counter span {
+    background-color: rgb(17, 126, 163);
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.deactive {
+    opacity: .3;
+}
